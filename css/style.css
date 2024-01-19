@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Raleway';
+}
+
+body{
+    background-image: url(../img/forest-2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    width: 100%;
+    max-width: 700px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    overflow: hidden;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    background: #2854;
+    padding: 5px;
+    display: flex;
+    position: relative;
+}
+
+.logo{
+    display: flex;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.logo img{
+    width: 45px;
+    height: 45px;
+}
+
+.logo h2{
+    margin-left: 13px;
+    margin-top: 8px;
+    color: white;
+    font-weight: 300;
+}
+
+.menu{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: white;
+}
+
+.menu li{
+    list-style: none;
+    font-size: 17px;
+    padding: 30px;
+    padding-bottom: 27px;
+    font-weight: 300;
+}
+
+.menu li:hover{
+    border-bottom: 4px solid #353535;
+    color:#353535;
+    cursor: pointer;
+}
+
+a{
+    color: white;
+}
+
+form{
+    width: 100%;
+}
+
+.lineInput{
+    max-width: 350px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    padding: 6px;
+    position: relative;
+    border-bottom: 1px solid #efefef;
+}
+
+.lineInput input{
+    border-style: none;
+    outline: 0px;
+    margin-left: 10px;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 300;
+}
+
+form button{
+    width: 300px;
+    height: 55px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    background: #353535;
+    border-style: none;
+    outline: 0px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover{
+    opacity: .9;
+}
